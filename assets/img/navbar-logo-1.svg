@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 228.66 39.08"
+   version="1.1"
+   id="svg11283"
+   sodipodi:docname="navbar-logo-1.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11287">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-11.412403 : 18.216823 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="217.2476 : 18.216823 : 1"
+       inkscape:persp3d-origin="102.9176 : 11.70349 : 1"
+       id="perspective36351" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview11285"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.0460538"
+     inkscape:cx="111.80847"
+     inkscape:cy="38.785629"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11283" />
+  <style
+     id="style11253">.cls-1{fill:#fed136;}</style>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6296px;line-height:1.5;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;text-anchor:middle;display:inline;fill:#e4faff;fill-opacity:0.953757;stroke-width:0.441643"
+     x="51.336391"
+     y="28.38113"
+     id="text8271"
+     transform="scale(1.0586162,0.94462943)"><tspan
+       sodipodi:role="line"
+       id="tspan8269"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6296px;font-family:'Lucida Handwriting';-inkscape-font-specification:'Lucida Handwriting';fill:#e4faff;fill-opacity:0.953757;stroke-width:0.441643"
+       x="51.336391"
+       y="28.38113">Cloud</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9279px;line-height:1.7;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT';text-align:center;text-anchor:middle;display:inline;fill:#dffdff;fill-opacity:0.953757;stroke-width:0.29453;paint-order:stroke markers fill"
+     x="170.01146"
+     y="26.932344"
+     id="text10288"
+     transform="scale(1.0130719,0.98709673)"><tspan
+       sodipodi:role="line"
+       id="tspan10286"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9279px;font-family:'Lucida Handwriting';-inkscape-font-specification:'Lucida Handwriting';fill:#dffdff;fill-opacity:0.953757;stroke-width:0.29453"
+       x="170.01146"
+       y="26.932344">guard</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.069px;line-height:1.7;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT';text-align:center;text-anchor:middle;display:inline;fill:#801300;fill-opacity:0.95375705;stroke-width:0.484915;paint-order:stroke markers fill"
+     x="84.525269"
+     y="47.548355"
+     id="text10292"
+     transform="scale(1.2911836,0.77448319)"><tspan
+       sodipodi:role="line"
+       id="tspan10290"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.069px;font-family:'Lucida Handwriting';-inkscape-font-specification:'Lucida Handwriting';fill:#801300;fill-opacity:0.95375705;stroke-width:0.484915"
+       x="84.525269"
+       y="47.548355">9</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.2554px;line-height:1.7;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';text-align:center;text-anchor:middle;fill:#801e00;fill-opacity:0.953757;stroke-width:1.3173;paint-order:stroke markers fill"
+     x="19.834923"
+     y="54.87603"
+     id="text30166"
+     transform="scale(1.5116396,0.66153333)"><tspan
+       sodipodi:role="line"
+       id="tspan30164"
+       x="19.834923"
+       y="54.87603"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.2554px;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';fill:#801e00;fill-opacity:0.953757;stroke-width:1.3173">C</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.8575px;line-height:1.7;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';text-align:center;text-anchor:middle;fill:#801e00;fill-opacity:0.953757;stroke-width:1.44109;paint-order:stroke markers fill"
+     x="-130.92348"
+     y="56.541336"
+     id="text30166-4"
+     transform="scale(-1.5056046,0.66418502)"><tspan
+       sodipodi:role="line"
+       id="tspan30164-4"
+       x="-130.92348"
+       y="56.541336"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.8575px;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';fill:#801e00;fill-opacity:0.953757;stroke-width:1.44109">C</tspan></text>
+</svg>

@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+ @import url(https://fonts.googleapis.com/css?family=Lobster);
+ @import url(https://fonts.googleapis.com/css?family=Righteous);
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -33,7 +38,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1d35ab;
+  --bs-primary: #1a53a1;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -62,6 +67,9 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #e0e4e5;
+  --bg-color: #E5E5F7;
+  --secondary-bg-color: #d5d5d5;
+  --primary-color: #1a53a1;
 }
 
 *,
@@ -3031,27 +3039,27 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #006eff;
+  background-color: #1a53a1;
   border-color: #0099ff;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0033d9;
-  border-color: #000ecc;
+  background-color: #0069cc;
+  border-color: #246bd6;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0036d9;
-  border-color: #002ccc;
+  background-color: #1a53a1;
+  border-color: #4a86c6;
   box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #0069cc;
-  border-color: #0053bf;
+  border-color: #3c71b8;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(38, 121, 255, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(48, 94, 169, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -3270,12 +3278,12 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #0040ff;
+  color: #0069cc;
   border-color: #0088ff;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0077ff;
+  background-color: #0069cc;
   border-color: #0084ff;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
@@ -3287,7 +3295,7 @@ textarea.form-control-lg {
   border-color: #0073ff;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 68, 255, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(49, 79, 161, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
   color: #ffc800;
@@ -3375,7 +3383,7 @@ textarea.form-control-lg {
 }
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #0044ff;
+  background-color: #0069cc;
   border-color: #004cff;
 }
 .btn-check:focus + .btn-outline-warning, .btn-outline-warning:focus {
@@ -11410,25 +11418,49 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/abstract-header-bg.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(#041a27, #0a3e54);
+  /* background-image: url("../assets/img/abstract-header-bg.jpg"); */
+  /* background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
+
+
+
+#security-img {
+  background-blend-mode: difference;
+}
+
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 0.5rem;
+  font-style: bold;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* text-shadow: .05em .05em 0 hsla(230,40%,50%,1); */
+}
+
+.subhead-text {
+  font-size: 1.8rem;
+}
+.subhead-ai-text {
+  font-size: 2.0rem;
+  font-style: normal;
+  text-shadow: .08em .08em 0 hsla(230,40%,50%,1);
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
+  font-size: 4.75rem;
+  font-weight: 900;
+  line-height:7rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  /* letter-spacing: 5px;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 10000ms infinite;  */
+  text-shadow: .08em .08em 0 hsla(230,40%,50%,1);
 }
 
 @media (min-width: 768px) {
@@ -11448,6 +11480,9 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
+  #security-img {
+    background-blend-mode: difference;
+  }
 }
 
 section.masthead {
@@ -11455,12 +11490,15 @@ section.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/service-bg.jpg");
+  background-image: linear-gradient(#0a3e54, #a4adb3);
+  /* background-image: url("../assets/img/service-bg.jpg"); */
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
